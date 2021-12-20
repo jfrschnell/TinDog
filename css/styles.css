@@ -13,7 +13,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -56,8 +56,10 @@ h2 {
 }
 
 .title-image {
-  width: 65%;
-  transform: rotate(20deg);
+  width: 20%;
+  transform: rotate(22deg);
+  position: absolute;
+  right: 25%;
 }
 
 /* image */
@@ -69,7 +71,9 @@ img {
 /* Features section */
 
 #features {
-  padding: 7% 8%;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -105,7 +109,7 @@ p {
 }
 
 .testimonial-image {
-  width: 15%;
+  width: 25%;
   border-radius: 100%;
   margin: 10px;
 }
@@ -121,7 +125,7 @@ p {
 }
 
 .press-logo {
-  width: 10%;
+  width: 20%;
   margin: 10px 20px;
 }
 
@@ -134,4 +138,46 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+
+/*  Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 60px 30px;
+}
+
+h3 {
+  font-family: Montserrat;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.socio {
+  font-size: 1rem;
+}
+
+.socio i {
+  padding: 0% 0.8rem;
+}
+
+.socio i:hover {
+  color: #100c08;
 }
